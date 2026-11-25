@@ -1,6 +1,13 @@
-import { InfoSection, Questions } from '../../components/PageSections';
-import { pageContent } from '../../data/pageContent';
-import { Mail, MapPin, Handshake } from 'lucide-react';
-import { PageHeader, SectionHeading } from '../../components/UI';
-import InterestForm from '../../components/InterestForm';
-export default function Contact() { return <><PageHeader eyebrow="SAY HELLO" title={<>Good things start<br/><em>with a conversation.</em></>} description="Have a question, an idea, or a little time to give? Let’s connect."/><section className="section container contact-layout"><div><SectionHeading eyebrow="WE’RE HERE TO CONNECT" title="Every conversation counts."/><p className="body-copy">Whether you want to volunteer, partner with us, or learn about our work, this is a good place to begin.</p>{[{ icon: MapPin, title: 'Visit us', text: 'Please confirm the meeting location and time before planning a visit.' }, { icon: Mail, title: 'Reach out', text: 'Official phone and email details are awaiting confirmation. The enquiry form below is a local preview.' }, { icon: Handshake, title: 'Build a partnership', text: 'Share your ideas through the enquiry form.' }].map(({icon: Icon, title, text}) => <div className="contact-item" key={title}><Icon size={22}/><div><h3>{title}</h3><p>{text}</p></div></div>)}</div><InterestForm/></section><InfoSection {...pageContent.contact.info}/><Questions items={pageContent.contact.questions}/></>; }
+import ContactDetails from "../../components/ContactDetails";
+import { PageHeader } from "../../components/UI";
+
+export default function Contact() {
+  return (
+    <>
+      <PageHeader eyebrow="SAY HELLO" title="Contact us" />
+      <div className="section container">
+        <ContactDetails />
+      </div>
+    </>
+  );
+}

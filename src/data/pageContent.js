@@ -56,8 +56,7 @@ export const pageContent = {
       { title: 'Agree on next steps', text: 'Confirm arrangements and any orientation or safeguarding requirements before beginning.' } ] },
     questions: [
       { q: 'Do I need previous volunteering experience?', a: 'Tell us what you can offer and what you would like to learn. Suitability and any training requirements depend on the role.' },
-      { q: 'Can I contribute remotely or occasionally?', a: 'Include your location and availability in your introduction. Remote and occasional contributions depend on current needs and the nature of the task.' },
-      { q: 'Does the registration form submit my details?', a: 'The current form is a local preview. It checks the entered details but does not send or store a registration.' } ],
+      { q: 'Can I contribute remotely or occasionally?', a: 'Include your location and availability in your introduction. Remote and occasional contributions depend on current needs and the nature of the task.' } ],
   },
   contact: {
     info: { title: 'What would you like to discuss?', description: 'A clear introduction helps start a useful conversation.', muted: true, items: [
