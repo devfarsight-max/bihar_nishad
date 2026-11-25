@@ -1,4 +1,4 @@
-﻿// Editorial content describes our focus and ways to participate, without claiming unverified results.
+// Editorial content describes our focus and ways to participate, without claiming unverified results.
 export const pageContent = {
   about: {
     info: { title: 'The values that bring us together', description: 'A stronger community begins with how we listen, include, and care for one another.', muted: true, items: [
@@ -68,20 +68,6 @@ export const pageContent = {
       { q: 'What should I include in my message?', a: 'Include the purpose of your enquiry, any relevant location or dates, and the specific information you would like to discuss. Avoid sharing sensitive personal documents.' },
       { q: 'Can I arrange a visit?', a: 'Please confirm a location, contact person, and suitable time before travelling. A public office address has not yet been provided on this website.' },
       { q: 'Will this form send my enquiry?', a: 'This website currently provides a frontend preview. The form validates locally; message delivery will require a connected submission service.' } ],
-  },
-  donate: {
-    info: { title: 'Choose a purpose close to your heart', description: 'Explore the focus areas behind the mission before deciding how you would like to support it.', muted: true, items: [
-      { title: 'Opportunity through learning', text: 'Learn more about the importance of access to knowledge, learning materials, and skills.', to: '/programs/education', link: 'Explore education' },
-      { title: 'Stronger communities', text: 'Discover how local participation and shared knowledge connect with community development.', to: '/programs/rural', link: 'Explore community development' },
-      { title: 'Dignity & inclusion', text: 'Understand the role of mutual support, awareness, and equal opportunity in a more inclusive society.', to: '/programs/welfare', link: 'Explore social welfare' } ] },
-    steps: { title: 'Give with clarity', description: 'Take time to understand the purpose and arrangements before making a contribution.', steps: [
-      { title: 'Explore the mission', text: 'Read about our focus areas and choose what you would like to ask about.' },
-      { title: 'Confirm the details', text: 'Request the official payment method, acknowledgement process, and any applicable donation terms.' },
-      { title: 'Make an informed choice', text: 'Contribute only after the arrangements have been confirmed. The amount selector on this page is a preview.' } ] },
-    questions: [
-      { q: 'Can I make a payment on this website?', a: 'Online payments are not connected. Choosing an amount and previewing a contribution does not charge you or transfer money.' },
-      { q: 'Are contributions eligible for a tax benefit?', a: 'No tax exemption is claimed on this website. Please request verified eligibility and documentation before relying on any tax benefit.' },
-      { q: 'Can I support the mission in other ways?', a: 'Yes. Explore volunteering or discuss a partnership, skills contribution, or other support through the contact page.' } ],
   },
 };
 

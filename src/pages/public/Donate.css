@@ -1,5 +1,9 @@
 .donation-bank-details {
-  margin-top: 24px;
+  max-width: 680px;
+}
+
+.donation-bank-details h1 {
+  font-size: clamp(26px, 4vw, 36px);
 }
 
 .donation-bank-details dl {
