@@ -1,0 +1,11 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import { MotionConfig } from 'framer-motion';
+import { BrowserRouter } from 'react-router-dom';
+import App from './App';
+import { AuthProvider } from './context/AuthContext';
+import './index.css';
+import './theme.css';
+import './auth.css';
+import './components/layout/Navbar.css';
+ReactDOM.createRoot(document.getElementById('root')).render(<React.StrictMode><MotionConfig reducedMotion="user" transition={{ duration: 0.3, ease: [0.22, 1, 0.36, 1] }}><BrowserRouter><AuthProvider><App /></AuthProvider></BrowserRouter></MotionConfig></React.StrictMode>);
