@@ -1,0 +1,26 @@
+.donation-bank-details {
+  margin-top: 24px;
+}
+
+.donation-bank-details dl {
+  margin: 12px 0 0;
+}
+
+.donation-bank-details dl > div {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(0, 3fr);
+  gap: 12px;
+  padding-block: 9px;
+  border-bottom: 1px solid var(--line);
+  font-size: 14px;
+}
+
+.donation-bank-details dt {
+  color: var(--muted);
+}
+
+.donation-bank-details dd {
+  margin: 0;
+  font-weight: 650;
+  overflow-wrap: anywhere;
+}
