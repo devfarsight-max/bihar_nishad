@@ -15,16 +15,17 @@
   justify-content: space-between;
 }
 .site-header .brand { gap: 12px; font-size: 19px; letter-spacing: -.65px; }
+.brand img.brand-mark {
+  flex-shrink: 0;
+  background: none;
+  border: 0;
+  box-shadow: none;
+  transform: none;
+}
 .site-header .brand-mark {
   width: 46px;
   height: 46px;
-  border-radius: 15px;
-  background: linear-gradient(145deg, #f0f5ff, #e4edff);
-  border: 1px solid #dce7ff;
-  box-shadow: inset 0 1px 0 #fff;
-  transform: none;
 }
-.site-header .brand-mark svg { transform: none; }
 .site-header .brand small { color: #74839a; font-size: 7px; letter-spacing: 1.4px; margin-top: 7px; }
 .site-header .desktop-nav {
   display: flex;
